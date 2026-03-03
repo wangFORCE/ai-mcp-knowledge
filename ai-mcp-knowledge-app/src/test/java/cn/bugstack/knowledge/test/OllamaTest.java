@@ -18,7 +18,6 @@ import org.springframework.ai.model.Media;
 import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.ollama.api.OllamaOptions;
 import org.springframework.ai.reader.tika.TikaDocumentReader;
-import org.springframework.ai.transformer.splitter.TextSplitter;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.SimpleVectorStore;
@@ -152,8 +151,9 @@ public class OllamaTest {
         Message ragMessage = new SystemPromptTemplate(SYSTEM_PROMPT).createMessage(Map.of("documents", documentsCollectors));
 
         ArrayList<Message> messages = new ArrayList<>();
-        messages.add(new UserMessage(message));
+
         messages.add(ragMessage);
+        messages.add(new UserMessage(message));
 
         ChatResponse chatResponse = ollamaChatModel.call(new Prompt(
                 messages,

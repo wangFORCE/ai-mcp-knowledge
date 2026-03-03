@@ -22,20 +22,6 @@ public class OllamaConfig {
         return SimpleVectorStore.builder(embeddingModel).build();
     }
 
-    /**
-     * -- 删除旧的表（如果存在）
-     * DROP TABLE IF EXISTS public.vector_store_ollama_deepseek;
-     *
-     * -- 创建新的表，使用UUID作为主键
-     * CREATE TABLE public.vector_store_ollama_deepseek (
-     *     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-     *     content TEXT NOT NULL,
-     *     metadata JSONB,
-     *     embedding VECTOR(768)
-     * );
-     *
-     * SELECT * FROM vector_store_ollama_deepseek
-     */
     @Bean("ollamaPgVectorStore")
     public PgVectorStore pgVectorStore(OllamaApi ollamaApi, JdbcTemplate jdbcTemplate) {
         OllamaEmbeddingModel embeddingModel = OllamaEmbeddingModel
