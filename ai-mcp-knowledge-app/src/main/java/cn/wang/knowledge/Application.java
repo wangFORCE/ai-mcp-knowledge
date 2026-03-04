@@ -1,4 +1,4 @@
-package cn.bugstack.knowledge;
+package cn.wang.knowledge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

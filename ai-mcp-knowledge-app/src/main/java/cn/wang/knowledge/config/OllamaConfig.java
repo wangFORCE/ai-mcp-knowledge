@@ -1,4 +1,4 @@
-package cn.bugstack.knowledge.config;
+package cn.wang.knowledge.config;
 
 import org.springframework.ai.ollama.OllamaEmbeddingModel;
 import org.springframework.ai.ollama.api.OllamaApi;

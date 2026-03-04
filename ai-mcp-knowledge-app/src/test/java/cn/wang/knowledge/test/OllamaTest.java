@@ -1,6 +1,6 @@
-package cn.bugstack.knowledge.test;
+package cn.wang.knowledge.test;
 
-import cn.bugstack.knowledge.test.Utils.TokenTextSplitterWithContext;
+import cn.wang.knowledge.test.Utils.TokenTextSplitterWithContext;
 import com.alibaba.fastjson.JSON;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
