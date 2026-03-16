@@ -4,6 +4,7 @@ server:
 spring:
   main:
     web-application-type: none
+    banner-mode: off
   datasource:
     driver-class-name: org.postgresql.Driver
     username: postgres
@@ -11,9 +12,14 @@ spring:
     url: jdbc:postgresql://127.0.0.1:15432/ai-rag-knowledge
     type: com.zaxxer.hikari.HikariDataSource
   ai:
+    mcp:
+      client:
+        request-timeout: 360s
+        stdio:
+          servers-configuration: classpath:/config/mcp-servers-config.json
     openai:
-      base-url: https://pro-share-aws-api.zcyai.com/
-      api-key: sk-b1dNTAXqTai1n9kP19517d7820C2427
+      base-url: https://apis.itedus.cn
+      api-key: sk-wzE9ScCuXky7DkGtBeCfD56675Dc48Ec8d3dCb157d37De62
       embedding-model: text-embedding-ada-002
       embedding:
         options:
