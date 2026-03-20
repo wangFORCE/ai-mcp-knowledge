@@ -4,12 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.bugstack</groupId>
+    <groupId>cn.wang</groupId>
     <artifactId>ai-mcp-knowledge</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <modules>
         <module>ai-mcp-knowledge-app</module>
+        <module>ai-mcp-knowledge-trigger</module>
     </modules>
 
     <properties>

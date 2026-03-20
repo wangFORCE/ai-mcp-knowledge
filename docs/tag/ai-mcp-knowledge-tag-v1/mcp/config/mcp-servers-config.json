@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mcp-server-csdn": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "/mcp/jar/mcp-server-csdn-1.0.0.jar",
+        "--csdn.api.categories=Java场景面试宝典",
+        "--csdn.api.cookie=uuid_tt_dd=10_9753606990-1753161225432-493733; fid=20_47061416418-1753161224523-644261; c_dl_prid=-; c_dl_rid=1755172486677_641432; c_dl_fref=https://so.csdn.net/so/search; c_dl_fpage=/download/qq_39132095/12051469; c_dl_um=distribute.pc_search_result.none-task-blog-2%7Eall%7Esobaiduend%7Edefault-1-141476098-null-null.142%5Ev102%5Epc_search_result_base3; c_ins_fpage=/index.html; c_ins_um=-; ins_first_time=1761731455538; c_ins_prid=1761731454371_644131; c_ins_rid=1761731458760_103405; c_ins_fref=https://blog.csdn.net/qq_32892383/article/details/143170942; __gads=ID=4fb1afa4f95f7fdb:T=1753259175:RT=1767595066:S=ALNI_MbnFD6DjPRWg-fBCpipE5GAnEht7w; __gpi=UID=0000116c84521906:T=1753259175:RT=1767595066:S=ALNI_MZFFoNyOBU-5Q2-fH-UQjene_K7gw; p_uid=U010000; UserName=2501_90125561; UserInfo=83846208277e43ddae8e172c9db72080; UserToken=83846208277e43ddae8e172c9db72080; UserNick=2501_90125561; AU=028; UN=2501_90125561; BT=1772268810638; csdn_newcert_2501_90125561=1; c_segment=5; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1772262779,1773735613; HMACCOUNT=D8E626F3F75C72C5; c_ab_test=1; dc_sid=3c541b2303d3e0b00a444c0f80d4fb9d; is_advert=1; _clck=14062ti%5E2%5Eg4g%5E0%5E2029; _clsk=1ogan7u%5E1773814655137%5E2%5E0%5Ek.clarity.ms%2Fcollect; dc_session_id=11_1773838956222.693676; creative_popup=%7B%5C%22arrowIcon%5C%22%3A%5C%22https%3A//i-operation.csdnimg.cn/images/0f13ec529b6b4195ad99894f76653e56.png%5C%22%2C%5C%22img%5C%22%3A%5C%22https%3A//i-operation.csdnimg.cn/images/2c94ad0f30174b8dbad26e90133598f0.png%5C%22%2C%5C%22imgStyle%5C%22%3A%5C%22height%3A%2088px%3B%5C%22%2C%5C%22darkCfg%5C%22%3A%7B%7D%2C%5C%22role%5C%22%3A%5C%22write%5C%22%2C%5C%22report%5C%22%3A%7B%5C%22spm%5C%22%3A%5C%223001.11121%5C%22%2C%5C%22extra%5C%22%3A%5C%22%5C%22%7D%2C%5C%22style%5C%22%3A%5C%22%5C%22%2C%5C%22arrowIconStyle%5C%22%3A%5C%22%5C%22%2C%5C%22url%5C%22%3A%5C%22https%3A//mp.csdn.net/edit%5C%22%2C%5C%22newTab%5C%22%3Afalse%2C%5C%22userName%5C%22%3A%5C%222501_90125561%5C%22%7D; creative_btn_mp=3; c-sidebar-collapse=0; SESSION=9b816f46-c8c5-4c85-ab1e-630bcd2423a2; c_first_ref=cn.bing.com; c_first_page=https%3A//www.csdn.net/; c_dsid=11_1773839007133.996808; c_pref=https%3A//www.csdn.net/; c_ref=https%3A//mp.csdn.net/; c_page_id=default; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1773839016; log_Id_pv=8; log_Id_view=157; dc_tos=tc3j0x; log_Id_click=8"
+      ]
+    }
+  }
+}
